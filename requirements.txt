@@ -1,0 +1,14 @@
+Flask==2.2.5
+python-dotenv==1.0.1
+langchain-community
+langchain-text-splitters
+langchain-google-genai>=0.0.8  # Latest stable version
+langchain-pinecone>=0.0.5  # More recent version
+pinecone-client>=3,<4
+SpeechRecognition==3.10.0
+Werkzeug>=2.2.2  # Updated to remove the conflict
+flask_cors
+pypdf
+pdf2image
+pytesseract
+scikit-learn

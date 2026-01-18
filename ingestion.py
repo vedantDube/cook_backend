@@ -101,7 +101,7 @@ def create_embeddings():
     try:
         return GoogleGenerativeAIEmbeddings(
             model="models/text-embedding-gecko-001", 
-            google_api_key=os.getenv("GOOGLE_API_KEY")
+            google_api_key=(os.getenv("GOOGLE_API_KEY").get_secret_value() if isinstance(google_api_key, SecretStr) else os.getenv("GOOGLE_API_KEY"))
         )
     except Exception as e:
         print(f"Error creating embeddings: {e}")

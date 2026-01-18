@@ -12,6 +12,7 @@ from PIL import Image
 import pytesseract
 import io
 import uuid
+from pydantic import SecretStr
 
 load_dotenv()
 

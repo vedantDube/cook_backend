@@ -100,7 +100,7 @@ def create_embeddings():
     """Create an embedding model."""
     try:
         return GoogleGenerativeAIEmbeddings(
-            model="models/text-embedding-004", 
+            model="models/text-embedding-gecko-001", 
             google_api_key=os.getenv("GOOGLE_API_KEY")
         )
     except Exception as e:

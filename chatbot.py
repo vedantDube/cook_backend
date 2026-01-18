@@ -22,7 +22,7 @@ def initialize_llm():
     return ChatGoogleGenerativeAI(
         model="gemini-2.5-flash",
         temperature=0,
-        google_api_key=os.getenv("GOOGLE_API_KEY")
+        google_api_key=(os.getenv("GOOGLE_API_KEY").get_secret_value() if isinstance(google_api_key, SecretStr) else os.getenv("GOOGLE_API_KEY"))
     )
 
 def initialize_vectorstore(user_index, collection_name):

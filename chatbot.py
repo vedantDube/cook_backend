@@ -8,6 +8,7 @@ from langchain_google_genai import (
 from langchain_pinecone import PineconeVectorStore
 from langchain.prompts import PromptTemplate
 from langchain.chains import LLMChain
+from pydantic import SecretStr
 
 warnings.filterwarnings("ignore")
 load_dotenv()

@@ -27,7 +27,7 @@ def initialize_llm():
 
 def initialize_vectorstore(user_index, collection_name):
     embeddings = GoogleGenerativeAIEmbeddings(
-        model="models/text-embedding-004",
+        model="models/text-embedding-gecko-001",
         google_api_key=os.getenv("GOOGLE_API_KEY")
     )
 

@@ -122,32 +122,32 @@ COOKGPT was designed to directly map these requirements into a **robust, end-to-
       <td align="center">
         <img src="/CookGPTLogo.webp" style="border-radius:50%" width="70"/>
         <b>Hetharth Sachdeva</b><br/>
-        <i>Project Lead & Full-Stack Developer (AI/ML)</i><br/>
-        <a href="https://github.com/sarahjohnson">GitHub</a> • 
-        <a href="https://linkedin.com/in/sarahjohnson">LinkedIn</a>
+        <i>Project Lead & Python Developer (AI/ML)</i><br/>
+        <a href="https://github.com/HetharthSachdeva">GitHub</a> • 
+        <a href="https://www.linkedin.com/in/hetharth-sachdeva/">LinkedIn</a>
       </td>
       <td align="center">
         <img src="/CookGPTLogo.webp" style="border-radius:50%" width="70"/>
         <b>Prince Kumar</b><br/>
         <i>Full-Stack Developer</i><br/>
-        <a href="https://github.com/davidkim">GitHub</a> • 
-        <a href="https://linkedin.com/in/davidkim">LinkedIn</a>
+        <a href="https://github.com/prince04kumar">GitHub</a> • 
+        <a href="https://www.linkedin.com/in/princenitrr/">LinkedIn</a>
       </td>
     </tr>
     <tr>
       <td align="center">
         <img src="/CookGPTLogo.webp" style="border-radius:50%" width="70"/>
         <b>Vedant Dubey</b><br/>
-        <i>Full-Stack Developer</i><br/>
-        <a href="https://github.com/davidkim">GitHub</a> • 
-        <a href="https://linkedin.com/in/davidkim">LinkedIn</a>
+        <i>Python Developer</i><br/>
+        <a href="https://github.com/vedantDube">GitHub</a> • 
+        <a href="https://www.linkedin.com/in/vedant-dubey-55a934287/">LinkedIn</a>
       </td>
       <td align="center">
         <img src="/CookGPTLogo.webp" style="border-radius:50%" width="70"/>
         <b>Mayank Verma</b><br/>
-        <i>Full-Stack Developer</i><br/>
-        <a href="https://github.com/davidkim">GitHub</a> • 
-        <a href="https://linkedin.com/in/davidkim">LinkedIn</a>
+        <i>Frontend Developer</i><br/>
+        <a href="https://github.com/vsmay-01">GitHub</a> • 
+        <a href="https://www.linkedin.com/in/mayank-verma-723b62297/">LinkedIn</a>
       </td>
     </tr>
   </table>
@@ -164,7 +164,7 @@ COOKGPT was designed to directly map these requirements into a **robust, end-to-
 
 <div align="center">
   <img src="/CookGPTLogo.webp" alt="Cook GPT Logo" width="50" style="border-radius:50%" height=''/>
-  <h3>Cook GPT - Cooking Reimagined with AI</h3>
-  <p>Made with ❤️ by Team Cookers</p>
+  <h3>Cook GPT</h3>
+  <p>Made with ❤️ by Team UnknownCookError</p>
 </div>
 ![alt text](image.png)

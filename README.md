@@ -1,5 +1,5 @@
 # 🚀 COOKGPT — Multimodal RAG Chatbot  
-### 🥇 Winner – 1st Place, IIIT Naya Raipur Hackathon (PS-2, AIML Track)
+### 🥇 Winner – 1st Place, IIIT Naya Raipur Hackathon Hack-o-Harbour 2025
 
 COOKGPT is a **multimodal Retrieval-Augmented Generation (RAG) chatbot** built to ingest, index, and query information from **diverse data sources**—including documents, structured files, audio, and web links—while maintaining **retrieval transparency, explainability, and reliability**.
 
@@ -7,7 +7,7 @@ Developed as a solution to **Problem Statement 2 (AIML Track)** at the **IIIT Na
 
 ---
 
-## 🧠 Problem Statement Overview (PS-2)
+## 🧠 Problem Statement Overview
 
 The goal was to build a chatbot capable of:
 
@@ -69,3 +69,33 @@ COOKGPT was designed to directly map these requirements into a **robust, end-to-
 📸 Screenshot 1 – Document Ingestion Interface
 📸 Screenshot 2 – Retrieval & Re-ranking View
 📸 Screenshot 3 – Chatbot Query Response
+
+```
+---
+
+## 🧱 System Architecture
+
+```text
+┌──────────────┐
+│   User Query │
+└──────┬───────┘
+       ↓
+┌─────────────────────┐
+│ Vector Retriever    │  ← FAISS / ChromaDB
+└──────┬──────────────┘
+       ↓
+┌─────────────────────┐
+│ Re-ranking Layer    │  ← Context Scoring
+└──────┬──────────────┘
+       ↓
+┌─────────────────────┐
+│ LLM Response Engine │
+└──────┬──────────────┘
+       ↓
+┌────────────────────────────────────┐
+│ Transparent Output                  │
+│ - Retrieved Chunks                  │
+│ - Re-ranking Scores                 │
+│ - Final LLM Response                │
+└────────────────────────────────────┘
+

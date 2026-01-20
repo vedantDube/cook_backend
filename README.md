@@ -81,7 +81,7 @@ COOKGPT was designed to directly map these requirements into a **robust, end-to-
 └──────┬───────┘
        ↓
 ┌─────────────────────┐
-│ Vector Retriever    │  ← FAISS / ChromaDB
+│ Vector Retriever    │  ← Pinecone
 └──────┬──────────────┘
        ↓
 ┌─────────────────────┐
@@ -89,13 +89,11 @@ COOKGPT was designed to directly map these requirements into a **robust, end-to-
 └──────┬──────────────┘
        ↓
 ┌─────────────────────┐
-│ LLM Response Engine │
+│ LLM Response Engine │  ← Gemini API
 └──────┬──────────────┘
        ↓
 ┌────────────────────────────────────┐
 │ Transparent Output                  │
-│ - Retrieved Chunks                  │
-│ - Re-ranking Scores                 │
-│ - Final LLM Response                │
+│ Final LLM Response                  │
 └────────────────────────────────────┘
 

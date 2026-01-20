@@ -63,7 +63,17 @@ COOKGPT was designed to directly map these requirements into a **robust, end-to-
 
 ## 🖼️ Application Screenshots
 
-> _Add screenshots of the application UI, retrieval transparency, and querying interface here._
+<div align="center">
+  <div style="display: flex; justify-content: space-around; gap: 4; ">
+    <img src="/applicationOverview/application.png" alt="Mobile App Home" width="100"/>
+    <img src="/applicationOverview/application2.png" alt="Mobile App Home" width="100"/>
+    <img src="/applicationOverview/application3.png" alt="Mobile App Home" width="100"/>
+    <img src="/applicationOverview/application4.png" alt="Mobile App Home" width="100"/>
+     </div>
+  <div align="center">
+  <p><i>Cook GPT mobile application interfaces</i></p>
+  </div>
+</div>
 
 ```text
 📸 Screenshot 1 – Document Ingestion Interface
@@ -93,7 +103,7 @@ COOKGPT was designed to directly map these requirements into a **robust, end-to-
 └──────┬──────────────┘
        ↓
 ┌────────────────────────────────────┐
-│ Transparent Output                  │
-│ Final LLM Response                  │
+│ Transparent Output                 │
+│ Final LLM Response                 │
 └────────────────────────────────────┘
 

@@ -31,7 +31,7 @@ def initialize_llm():
 def initialize_vectorstore(user_index, collection_name):
     print("Initializing Pinecone Vector Store...")
     embeddings = GoogleGenerativeAIEmbeddings(
-        model="models/text-embedding-004",
+        model="models/gemini-embedding-001",
         google_api_key=str(os.getenv("GOOGLE_API_KEY")),
         transport="rest" 
     )
